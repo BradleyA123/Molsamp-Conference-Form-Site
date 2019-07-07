@@ -1,2 +1,2 @@
 # Molsamp-Conference-Form-Site
-A minor Conference form I made tailored to the MOLSAMP program. 
+A Replica of a Conference form I made for a conference for the MOLSAMP program. Made using HTML5 and CSS
