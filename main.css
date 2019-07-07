@@ -76,6 +76,12 @@
 }
 
 /*Media Queries*/
+
+@media and screen(max-width:400px){
+  #identification input{
+    width:50%;
+  }
+}
 @media screen and (max-width:1000px) {
   #student-classification input{
     width: 20%;
