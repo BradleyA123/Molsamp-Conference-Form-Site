@@ -1,0 +1,97 @@
+#container{
+  width: 80%;
+  border-width:10%;
+  border-style: double;
+  border-color:darkblue;
+  border-radius: 30px;
+  background-color: lightgrey;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#main{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#main img{
+  width: 60%;
+  height: auto;
+}
+
+#title{
+  text-decoration: underline;
+  text-align: center;
+}
+
+#description{
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#form-area{
+  width: 100%;
+}
+
+#survey-form{
+  display: block;
+  margin-left: 5px;
+}
+
+#survey-form label{
+  font-size: 20px;
+  display: block;
+}
+
+#survey-form input{
+  width:80%;
+  margin-bottom: 10px;
+}
+
+#dropdown{
+  width: 80%;
+}
+
+#student-classification input {
+  width: 1%;
+  display: inline-block;
+}
+
+#identification input{
+  display: inline-block;
+  width: 1%;
+}
+
+#text-area-div textarea{
+  margin-left: 7px;
+}
+
+#submit{
+  width: 20%;
+  margin-left: 40%;
+}
+
+/*Media Queries*/
+@media screen and (max-width:1000px) {
+  #student-classification input{
+    width: 20%;
+  }
+
+  #identification input{
+    width: 20%;
+  }
+
+  #text-area-div textarea{
+    width: 80%;
+  }
+
+  #submit{
+    width:50%;
+    margin-top: 10px;
+    margin-left: 20%;
+  }
+}
